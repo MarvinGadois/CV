@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+
+.photoprofil {
+    width: 10em;
+    height: 10em;
+}
+
+#menu li {
+    display: inline;
+}
+
+.badge {
+    width: 4em;
+    height: 4em;
+}

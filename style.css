@@ -1,17 +1,64 @@
-h1 {
-    color: blue;
+body {
+    margin: 0;
 }
 
-.photoprofil {
-    width: 10em;
-    height: 10em;
+header {
+    height: 14em;
+    background-color: purple;
+    background-size: cover;
+    text-align: center;
+}
+
+#menu {
+    float: right;
+    text-transform: uppercase;
+    margin: 6em 25em 0 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 25px;
+}
+
+#menu a:hover {
+    background-color: white;
 }
 
 #menu li {
     display: inline;
+    padding: 1em;
+}
+
+h1 {
+    margin: 0;
+    color: blue;
+}
+
+.photoprofil {
+    float: left;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    padding: 2em;
 }
 
 .badge {
     width: 4em;
     height: 4em;
+}
+
+#twitter {
+    width: 2em;
+    height: 2em;
+    overflow: hidden;
+}
+
+footer {
+    height: 5em;
+    background-color: yellowgreen;
+    background-size: cover;
+    text-align: center;
 }
